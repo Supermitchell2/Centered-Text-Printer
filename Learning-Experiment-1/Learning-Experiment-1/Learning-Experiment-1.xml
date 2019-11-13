@@ -4,6 +4,11 @@
         <name>Learning-Experiment-1</name>
     </assembly>
     <members>
+        <member name="T:Learning_Experiment_1.CenterPrinter">
+            <summary>
+            A class to center text using a spacer character
+            </summary>
+        </member>
         <member name="M:Learning_Experiment_1.CenterPrinter.#ctor">
             <summary>
             This constructor defaults the spacer character to a hyphen ('-')

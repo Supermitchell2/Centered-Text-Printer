@@ -1,6 +1,9 @@
 ﻿using System;
 namespace Learning_Experiment_1
 {
+    /// <summary>
+    /// A class to center text using a spacer character
+    /// </summary>
     public class CenterPrinter
     {
         private char spacer;

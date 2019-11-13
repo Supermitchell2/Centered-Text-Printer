@@ -2,6 +2,9 @@
 
 namespace Learning_Experiment_1
 {
+    /// <summary>
+    /// A class to contain the main method
+    /// </summary>
     class Program
     {
         /// <summary>
