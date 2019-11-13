@@ -6,7 +6,8 @@ namespace Learning_Experiment_1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("test");
+            CenterPrinter printer = new CenterPrinter();
+            printer.PrintCentered("Hello World", 20);
         }
     }
 }
