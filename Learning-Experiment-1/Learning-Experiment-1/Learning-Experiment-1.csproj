@@ -6,4 +6,8 @@
     <RootNamespace>Learning_Experiment_1</RootNamespace>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\CSharp\Learning-Experiment-1\Learning-Experiment-1\Learning-Experiment-1\Learning-Experiment-1.xml</DocumentationFile>
+  </PropertyGroup>
+
 </Project>

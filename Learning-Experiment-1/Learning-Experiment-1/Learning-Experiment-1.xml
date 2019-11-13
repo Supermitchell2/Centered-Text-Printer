@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Learning-Experiment-1</name>
+    </assembly>
+    <members>
+        <member name="M:Learning_Experiment_1.CenterPrinter.#ctor">
+            <summary>
+            This constructor defaults the spacer character to a hyphen ('-')
+            </summary>
+        </member>
+        <member name="M:Learning_Experiment_1.CenterPrinter.#ctor(System.Char)">
+            <summary>
+            This constructor allows the user to select the spacer character
+            </summary>
+            <param name="spacer"> The spacer character </param>
+        </member>
+        <member name="M:Learning_Experiment_1.CenterPrinter.GetCentered(System.String,System.Int32)">
+            <summary>
+            This method centers a message using spacer characters
+            </summary>
+            <param name="message">The message to be centered</param>
+            <param name="length">The length of the centered text, including spacers</param>
+            <returns> A string of length <code>length</code> with the message centered using spacer characters.</returns>
+        </member>
+        <member name="M:Learning_Experiment_1.CenterPrinter.PrintCentered(System.String,System.Int32)">
+            <summary>
+            This message prints the message centered using spacer characters
+            </summary>
+            <param name="message">The message to be printed</param>
+            <param name="length">The length of the printed string</param>
+        </member>
+        <member name="M:Learning_Experiment_1.CenterPrinter.RepeatChar(System.Char,System.Int32)">
+            <summary>
+            Creates a string of length <code>count</code> using character <code>c</code> repeated
+            </summary>
+            <param name="c">The character to be strung together</param>
+            <param name="count">The number of times the character will be repeated</param>
+            <returns>A string of character <code>c</code> repeated <code>count</code> times</returns>
+        </member>
+        <member name="M:Learning_Experiment_1.Program.Main(System.String[])">
+            <summary>
+            The main method
+            </summary>
+            <param name="args">The command line arguments</param>
+        </member>
+    </members>
+</doc>
